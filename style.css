@@ -1,0 +1,162 @@
+body{
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.header{
+    padding: 10px 100px;
+    display: flex;
+    background-color: #1F2937;
+    justify-content: center;
+}
+
+.container{
+    flex: 0 0 770px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.headlogo{
+    font-size: 18px;
+    color: #F9FAF8;
+    font-weight: 900;
+    flex-grow: 1;
+}
+.headerlink{
+    font-size: 12px;
+    color: #E5E7EB;
+    text-decoration: none;
+}
+
+
+.part1{
+    padding: 80px 100px;
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    flex: 0 0 770px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.part1 .left{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+.heromain{
+    font-size: 30px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+.herosub{
+    margin-bottom: 10px;
+    font-size: 12px;
+    color: #E5E7EB;
+}
+button{
+    padding: 5px 10px;
+    border: none;
+    border-radius: 8px;
+    font-size: 12px;
+    font-weight: bold;
+    color:#E5E7EB;
+    background-color: #3882F6;
+    width: 90px;
+}
+.heroimg{
+    width: 250px;
+}
+
+.part2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.part2 .subtitle{
+    padding: 50px;
+    font-size: 24px;
+    font-weight: 900;
+    color:#1F2937;
+}
+
+.part2 .info{
+    display: flex;
+    gap: 50px;
+    margin-bottom: 50px;
+}
+
+.imgset img{
+    width: 150px;
+    border: #3882F6 solid;
+    border-radius: 20px;
+}
+
+.imgset p{
+    font-size: 12px;
+    color:#1F2937;
+    text-align: center;
+}
+
+.part3{
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    padding: 50px 300px;
+}
+
+.part3 .quote{
+    font-size: larger;
+    font-weight: 100;
+    font-style: italic;
+    color:#1F2937;
+}
+
+.part3 .author{
+    font-size: small;
+    font-weight: bolder;
+    text-align: end;
+}
+
+.part4 {
+    margin: 50px 200px;
+    padding: 30px 75px;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.part4 .left{
+    display: flex;
+    flex-direction: column;
+}
+
+.part4 .p1{
+    font-weight: bolder;
+}
+
+.part4 .p2{
+    font-size: small;
+}
+
+.part4 button{
+    font-size: xx-small;
+    border: #F9FAF8 thin solid;
+    border-radius: 5px;
+}
+
+.footer {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    text-align: center;
+    padding: 10px 0;
+    font-size: xx-small;
+}
